@@ -110,7 +110,7 @@ const Head = () => {
           </button>
         </div>
         {searchQuery && showSuggestion && (
-          <div className="absolute top-14 w-[32rem] border border-gray-400 rounded-b-md bg-white shadow-lg py-2 px-5">
+          <div className="absolute top-14 left-1/2 transform -translate-x-1/2 w-1/2 border border-gray-400 rounded-b-md bg-white shadow-lg py-2 px-5 z-10">
             <ul>
               {suggestion.map((s) => (
                 <li
